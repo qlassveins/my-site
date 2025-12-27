@@ -1,0 +1,144 @@
+<html>
+<head>
+    	<title>Aisya's Personal Site - SOCIALS</title>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!-- Links to W3.CSS framework -->
+    	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    	<!-- Links to your custom CSS file (style.css). This must be in the same folder! -->
+    	<link rel="stylesheet" href="style.css">
+    	<!-- Using Font Awesome for Social Icons (lightweight and common) -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    	<style>
+        /* Custom styles for the social buttons */
+        .social-link {
+            	display: block;
+            	margin: 15px auto;
+            	max-width: 400px;
+            	padding: 15px 20px;
+            	background-color: #FFF0F5; /* Very light pink/lavender background */
+            	color: #A365B7; /* Text color matching subheadings */
+            	text-align: center;
+            	text-decoration: none;
+            	border-radius: 10px;
+            	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            	transition: all 0.3s ease;
+            	font-weight: bold;
+            	font-size: 1.1em;
+            	border: 1px solid #DDA0DD; /* Thin border */
+        }
+
+        .social-link:hover {
+            	background-color: #FC9FC0; /* Soft Pink on hover */
+            	color: white;
+            	transform: translateY(-3px);
+            	box-shadow: 0 6px 12px rgba(255, 105, 180, 0.4); /* Pink glow shadow */
+        }
+        
+        .social-link i {
+            	margin-right: 10px;
+            	min-width: 20px; /* Ensure icon has minimum width for alignment */
+        }
+    </style>
+
+</head>
+
+<body class="w3-body-background">
+
+    	<!-- Navigation Bar: Links to all 6 pages -->
+    	<div class="w3-bar w3-white w3-center w3-navbar" id="myNavbar">
+        	<a href="index.html" class="w3-bar-item w3-button w3-hide-small">HOME</a>
+        	<a href="biodata.html" class="w3-bar-item w3-button w3-hide-small">BIODATA</a>
+        	<a href="experience.html" class="w3-bar-item w3-button w3-hide-small">EXPERIENCE</a>
+        	<a href="gallery.html" class="w3-bar-item w3-button w3-hide-small">GALLERY</a>
+        	<a href="interests.html" class="w3-bar-item w3-button w3-hide-small">INTERESTS</a>
+        	<!-- Highlight SOCIALS as the active page -->
+        	<a href="socials.html" class="w3-bar-item w3-button w3-hide-small w3-pink-active">SOCIALS</a>
+        
+        <!-- Mobile/Tablet Menu Button -->
+        	<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">&#9776;</a>
+    	</div>
+
+    	<!-- Sidebar for Mobile (Hidden by default) -->
+    	<nav class="w3-sidebar w3-bar-block w3-light-gray w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        	<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+        	<a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+        	<a href="biodata.html" onclick="w3_close()" class="w3-bar-item w3-button">BIODATA</a>
+        	<a href="experience.html" onclick="w3_close()" class="w3-bar-item w3-button">EXPERIENCE</a>
+        	<a href="education.html" onclick="w3_close()" class="w3-bar-item w3-button">EDUCATION</a>
+        	<a href="interests.html" onclick="w3_close()" class="w3-bar-item w3-button">INTERESTS</a>
+        	<a href="socials.html" onclick="w3_close()" class="w3-bar-item w3-button w3-pink-active">SOCIALS</a>
+    	</nav>
+
+
+    	<!-- Main Content Container (SOCIALS SECTION) -->
+    	<div class="w3-container w3-white w3-card-lrg w3-margin-top w3-padding-32 w3-round-large animated-panel"> 
+
+        <!-- Main Heading -->
+        <h2 class="w3-center w3-heading">꒰ socials ꒱</h2>
+        
+        <hr class="w3-border-pink-thin w3-margin-bottom">
+
+        <p class="w3-center w3-large w3-text-gray">
+            	Find me on these platforms! Click the buttons below to connect.
+        </p>
+        
+        <!-- Social Media Buttons (Using your provided links) -->
+        <div class="w3-center w3-padding-16">
+            
+            	<a href="https://www.instagram.com/qlassveins?igsh=d21ubjI1dmY3bTdh" target="_blank" class="social-link">
+                	<i class="fab fa-instagram"></i> Instagram
+            	</a>
+
+            	<a href="https://www.tiktok.com/@qlassveins?_t=8nqN9RrYJ4T&_r=1" target="_blank" class="social-link">
+                	<i class="fab fa-tiktok"></i> TikTok
+            	</a>
+
+            	<a href="https://pin.it/3CvmftFYb" target="_blank" class="social-link">
+                	<i class="fab fa-pinterest"></i> Pinterest
+            	</a>
+
+            	<a href="https://steamcommunity.com/id/qlassveins/" target="_blank" class="social-link">
+                	<i class="fab fa-steam"></i> Steam
+            	</a>
+            
+            	<a href="https://discord.gg/NcP297RWK2" target="_blank" class="social-link">
+                	<i class="fab fa-discord"></i> Discord
+            	</a>
+            
+            	<a href="https://boxd.it/eUxvF" target="_blank" class="social-link">
+                	<i class="fas fa-film"></i> Letterboxd
+            	</a>
+
+		<a href="https://open.spotify.com/user/chrryblossms" target="_blank" class="social-link">
+                	<i class="fas fa-music"></i> Spotify
+            	</a>
+
+        </div> <!-- End of button container -->
+
+        <hr class="w3-border-pink-thin w3-margin-top">
+        
+        <p class="w3-center w3-small w3-margin-top">
+            	Statement of Responsibility/Ownership: This website is owned by Aisya and created for the IMD318 Project.
+        </p>
+
+    	</div>
+    
+    	<!-- Footer -->
+    	<div class="w3-center w3-padding-32 w3-small">
+        	&copy; 2025 qlassveins. All Rights Reserved. (IMD318 Project)
+    	</div>
+
+    	<!-- JavaScript for Mobile Sidebar -->
+    	<script>
+        	function w3_open() {
+            		document.getElementById("mySidebar").style.display = "block";
+        	}
+        	function w3_close() {
+            		document.getElementById("mySidebar").style.display = "none";
+        	}
+    	</script>
+
+</body>
+</html>
