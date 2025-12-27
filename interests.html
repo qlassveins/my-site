@@ -1,0 +1,247 @@
+<html>
+<head>
+	<title>Aisya's Personal Site - INTERESTS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="w3-body-background">
+
+<div class="w3-bar w3-white w3-center w3-navbar" id="myNavbar">
+	<a href="index.html" class="w3-bar-item w3-button w3-hide-small">HOME</a>
+        <a href="biodata.html" class="w3-bar-item w3-button w3-hide-small">BIODATA</a>
+        <a href="experience.html" class="w3-bar-item w3-button w3-hide-small">EXPERIENCE</a>
+        <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small">GALLERY</a>
+        <a href="interests.html" class="w3-bar-item w3-button w3-hide-small w3-pink-active">INTERESTS</a>
+        <a href="socials.html" class="w3-bar-item w3-button w3-hide-small">SOCIALS</a>
+        
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">&#9776;</a>
+</div>
+
+<nav class="w3-sidebar w3-bar-block w3-light-gray w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+	<a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+        <a href="biodata.html" onclick="w3_close()" class="w3-bar-item w3-button">BIODATA</a>
+        <a href="experience.html" onclick="w3_close()" class="w3-bar-item w3-button">EXPERIENCE</a>
+        <a href="gallery.html" onclick="w3_close()" class="w3-bar-item w3-button">GALLERY</a>
+        <a href="interests.html" onclick="w3_close()" class="w3-bar-item w3-button w3-pink-active">INTERESTS</a>
+	<a href="socials.html" onclick="w3_close()" class="w3-bar-item w3-button">SOCIALS</a>
+</nav>
+
+
+<div class="w3-container w3-white w3-card-lrg w3-margin-top w3-padding-32 w3-round-large animated-panel"> 
+
+        <h2 class="w3-center w3-heading">꒰ interests ꒱</h2>
+        
+        <hr class="w3-border-pink-thin w3-margin-bottom">
+
+        <div class="interest-grid w3-center">
+
+		<!-- Interest 1: Games -->
+            	<div class="interest-item interactive-item animated-panel" style="animation-delay: 0.4s;" onclick="document.getElementById('gameModal').style.display='block'">
+                	<img src="nso.jpg" alt="Gaming" width="500" height="500">
+                	<h4 class="w3-subheading w3-margin-top-8">Gaming</h4>
+            	</div>
+            
+            	<!-- Interest 2: Movies -->
+           	<div class="interest-item interactive-item animated-panel" style="animation-delay: 0.3s;" onclick="document.getElementById('movieModal').style.display='block'">
+                	<img src="movie.jpg" alt="Movies" width="500" height="500">
+                	<h4 class="w3-subheading w3-margin-top-8">Movies</h4>
+            	</div>
+
+            	<!-- Interest 3: Music -->
+            	<div class="interest-item interactive-item animated-panel" style="animation-delay: 0.2s;" onclick="document.getElementById('musicModal').style.display='block'">
+                	<img src="bea.jpg" alt="Music" width="500" height="500">
+                	<h4 class="w3-subheading w3-margin-top-8">Music</h4>
+           	</div>
+
+             	<!-- Interest 4: Animation -->
+            	<div class="interest-item interactive-item animated-panel" style="animation-delay: 0.6s;" onclick="document.getElementById('animationModal').style.display='block'">
+                	<img src="mlp.jpg" alt="Animation" width="500" height="500" style="border: 3px solid #FC9FC0;">
+                	<h4 class="w3-subheading w3-margin-top-8">Animation</h4>
+            	</div>
+
+        </div> <!-- End of interest-grid -->
+
+        <p class="w3-center w3-small w3-margin-top w3-padding-small w3-light-gray w3-round">
+		Click on any image above for more details!
+        </p>
+
+        <p class="w3-center w3-small w3-margin-top">
+		Statement of Responsibility: This website is owned by Aisya and created for the IMD318 Project.
+        </p>
+
+</div>
+    
+	<!-- Games List Modal  -->
+	<div id="gameModal" class="w3-modal">
+        	<div class="w3-modal-content w3-card-4 w3-animate-top" style="max-width: 500px; border-radius: 16px;">
+            	<header class="w3-container w3-pink w3-round-t-large">
+                <span onclick="document.getElementById('gameModal').style.display='none'"
+                class="w3-button w3-display-topright w3-hover-text-white">&times;</span>
+                <h3 class="w3-text-white" style="font-weight: bold;">꒰ my favorite games ꒱</h3>
+		</header>
+
+		<div class="w3-container w3-white w3-padding-24 w3-round-b-large">
+                <p class="w3-subheading">I enjoy Visual Novels, RPG and Horror genres, especially:</p>
+                <ul class="w3-ul w3-text-gray w3-border-pink-thin w3-round-large w3-margin-top">
+			<li class="w3-hover-light-gray w3-padding-small">Needy Streamer Overload</li>
+			<li class="w3-hover-light-gray w3-padding-small">Clinical Trial</li>
+			<li class="w3-hover-light-gray w3-padding-small">Love Angel Syndrome</li>
+			<li class="w3-hover-light-gray w3-padding-small">Alice Madness Returns</li>
+			<li class="w3-hover-light-gray w3-padding-small">Stardew Valley</li>
+			<li class="w3-hover-light-gray w3-padding-small">FNAF Into the Pit</li>
+			<li class="w3-hover-light-gray w3-padding-small">FNAF Ultimate Custom Night</li>
+			<li class="w3-hover-light-gray w3-padding-small">Final Fantasy VII (all) </li>
+			<li class="w3-hover-light-gray w3-padding-small">... and many more RPG/Horror titles!</li>
+			<li class="w3-hover-light-gray w3-padding-small">... and many more RPG/Horror titles!</li>
+			<li class="w3-hover-light-gray w3-padding-small"><a href="https://steamcommunity.com/id/qlassveins/" target="_blank" class="social-link"></i> Check out my Steam so we can connect!</a></li>
+                </ul>
+                <div class="w3-center w3-margin-top">
+                <button onclick="document.getElementById('gameModal').style.display='none'" class="w3-button w3-round-large w3-pink w3-hover-purple">Close</button>
+		</div>
+            	</div>
+        	</div>
+	</div>
+
+
+	<!-- Movie List Modal -->
+	<div id="movieModal" class="w3-modal">
+        	<div class="w3-modal-content w3-card-4 w3-animate-top" style="max-width: 500px; border-radius: 16px;">
+            	<header class="w3-container w3-pink w3-round-t-large">
+                <span onclick="document.getElementById('movieModal').style.display='none'"
+                class="w3-button w3-display-topright w3-hover-text-white">&times;</span>
+                <h3 class="w3-text-white" style="font-weight: bold;">꒰ my favorite movies ꒱</h3>
+            	</header>
+            	<div class="w3-container w3-white w3-padding-24 w3-round-b-large">
+                <p class="w3-subheading">I enjoy romance and comedy genres, especially:</p>
+                <ul class="w3-ul w3-text-gray w3-border-pink-thin w3-round-large w3-margin-top">
+			<li class="w3-hover-light-gray w3-padding-small">The Notebook</li>
+			<li class="w3-hover-light-gray w3-padding-small">MAMMA MIA! The Movie</li>
+			<li class="w3-hover-light-gray w3-padding-small">Crazy Stupid Love</li>
+			<li class="w3-hover-light-gray w3-padding-small">Only You</li>
+			<li class="w3-hover-light-gray w3-padding-small">Girl, Interrupted</li>
+			<li class="w3-hover-light-gray w3-padding-small">... and many more romcom movies!</li>
+			<li class="w3-hover-light-gray w3-padding-small"><a href="https://boxd.it/eUxvF" target="_blank" class="social-link"></i> Check out my Letterbox so we can connect!</a></li>
+                </ul>
+                <div class="w3-center w3-margin-top">
+                <button onclick="document.getElementById('movieModal').style.display='none'" class="w3-button w3-round-large w3-pink w3-hover-purple">Close</button>
+                </div>
+            	</div>
+       	 	</div>
+    	</div>
+
+	<!-- Music List Modal -->
+	<div id="musicModal" class="w3-modal">
+        	<div class="w3-modal-content w3-card-4 w3-animate-top" style="max-width: 500px; border-radius: 16px;">
+            	<header class="w3-container w3-pink w3-round-t-large">
+                <span onclick="document.getElementById('musicModal').style.display='none'"
+                class="w3-button w3-display-topright w3-hover-text-white">&times;</span>
+                <h3 class="w3-text-white" style="font-weight: bold;">꒰ my favorite musics ꒱</h3>
+            	</header>
+            	<div class="w3-container w3-white w3-padding-24 w3-round-b-large">
+                <p class="w3-subheading">I enjoy indie pop, dream pop, and alternative rock genres, especially:</p>
+                <ul class="w3-ul w3-text-gray w3-border-pink-thin w3-round-large w3-margin-top">
+			<li class="w3-hover-light-gray w3-padding-small">Cigarettes After Sex</li>
+			<li class="w3-hover-light-gray w3-padding-small">Beabadoobee</li>
+			<li class="w3-hover-light-gray w3-padding-small">Laufey</li>
+			<li class="w3-hover-light-gray w3-padding-small">The Marías</li>
+			<li class="w3-hover-light-gray w3-padding-small">My Chemical Romance</li>
+			<li class="w3-hover-light-gray w3-padding-small">Evanescence</li>
+			<li class="w3-hover-light-gray w3-padding-small">... and many more pop and rock music!</li>
+			<li class="w3-hover-light-gray w3-padding-small"><a href="https://open.spotify.com/user/chrryblossms" target="_blank" class="social-link">Check out my Spotify so we can connect!</a></li>
+                </ul>
+                <div class="w3-center w3-margin-top">
+                <button onclick="document.getElementById('musicModal').style.display='none'" class="w3-button w3-round-large w3-pink w3-hover-purple">Close</button>
+                </div>
+            	</div>
+       	 	</div>
+    	</div>
+
+	<!-- Animation List -->
+	<div id="animationModal" class="w3-modal">
+        	<div class="w3-modal-content w3-card-4 w3-animate-top" style="max-width: 500px; border-radius: 16px;">
+            	<header class="w3-container w3-pink w3-round-t-large">
+                <span onclick="document.getElementById('animationModal').style.display='none'"
+                class="w3-button w3-display-topright w3-hover-text-white">&times;</span>
+                <h3 class="w3-text-white" style="font-weight: bold;">꒰ my favorite show ꒱</h3>
+            	</header>
+            	<div class="w3-container w3-white w3-padding-24 w3-round-b-large">
+                <p class="w3-subheading">I enjoy comedy, fantasy, and slice of life genres, especially:</p>
+                <ul class="w3-ul w3-text-gray w3-border-pink-thin w3-round-large w3-margin-top">
+			<li class="w3-hover-light-gray w3-padding-small">The Amazing World of Gumball</li>
+			<li class="w3-hover-light-gray w3-padding-small">Steven Universe</li>
+			<li class="w3-hover-light-gray w3-padding-small">My Little Pony</li>
+			<li class="w3-hover-light-gray w3-padding-small">Scott Pilgrim Takes Off</li>
+			<li class="w3-hover-light-gray w3-padding-small">... and many more fun shows!</li>
+                </ul>
+                <div class="w3-center w3-margin-top">
+                <button onclick="document.getElementById('animationModal').style.display='none'" class="w3-button w3-round-large w3-pink w3-hover-purple">Close</button>
+                </div>
+            	</div>
+       	 	</div>
+    	</div>
+
+
+    <div class="w3-center w3-padding-32 w3-small">
+        &copy; 2025 qlassveins. All Rights Reserved. (IMD318 Project)
+    </div>
+
+    <script>
+        // Function to open/close mobile sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Function to show placeholder information for other interests
+        function showInfo(interest) {
+            // Replaces alert with a temporary message display within the card
+            const container = document.querySelector('.w3-card-lrg');
+            const messageId = 'temp-info-message';
+            
+            // Remove previous message if it exists
+            let oldMessage = document.getElementById(messageId);
+            if (oldMessage) {
+                oldMessage.remove();
+            }
+
+            // Create new message panel
+            let newMessage = document.createElement('div');
+            newMessage.id = messageId;
+            newMessage.className = 'w3-panel w3-pink w3-round-large w3-padding-16 w3-center w3-animate-opacity';
+            newMessage.style.maxWidth = '400px';
+            newMessage.style.margin = '20px auto';
+            newMessage.innerHTML = `
+                <p class="w3-large w3-text-white">
+                    You clicked **${interest}**!
+                </p>
+                <p class="w3-small w3-text-white">
+                    *The full detail page for this interest is under construction.*
+                </p>
+            `;
+
+            // Insert the message panel before the last two <p> tags
+            const pTags = container.querySelectorAll('p.w3-center');
+            if (pTags.length >= 2) {
+                container.insertBefore(newMessage, pTags[pTags.length - 1]);
+            } else {
+                container.appendChild(newMessage);
+            }
+            
+            // Remove message after 4 seconds
+            setTimeout(() => {
+                if (document.getElementById(messageId)) {
+                    document.getElementById(messageId).remove();
+                }
+            }, 4000);
+        }
+
+    </script>
+
+</body>
+</html>
